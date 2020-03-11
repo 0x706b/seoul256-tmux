@@ -1,0 +1,2 @@
+set -g status-left "#[fg=color234,bg=color95] #S #[fg=color95,bg=color234,nobold,noitalics,nounderscore]"
+set -g status-right "#[fg=color232,bg=color234,nobold,noitalics,nounderscore]#[fg=white,bg=color232] %Y-%m-%d #[fg=white,bg=color232,nobold,noitalics,nounderscore]#[fg=white,bg=color232] %H:%M #[fg=color103,bg=color232,nobold,noitalics,nounderscore]#[fg=color234,bg=color103] #(curl icanhazip.com)"
